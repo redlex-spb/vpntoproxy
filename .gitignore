@@ -13,3 +13,19 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+.idea
+
+logs/*
+!logs/.gitkeep
+
+go.sum
+
+configs/*
+
+main
+main.exe
+
+deployments/*
+!deployments/docker-vpnwithproxy.tar
+!deployments/vpn/.gitkeep
