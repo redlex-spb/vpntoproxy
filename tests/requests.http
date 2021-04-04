@@ -1,0 +1,25 @@
+#GET http://localhost:8080/api/vpn
+GET http://localhost:8080/api/vpn/bac68495cce16689b87f25a672ea094606b014d49eba7b56de09bf458618fe37
+#GET http://localhost:8080/api/vpn/checkVpn?id=bac68495cce16689b87f25a672ea094606b014d49eba7b56de09bf458618fe37
+#GET http://localhost:8080/api/vpn/checkProxy?id=bac68495cce16689b87f25a672ea094606b014d49eba7b56de09bf458618fe37
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/api/vpn
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "path": "/c/Users/Администратор/go/src/vpntoproxy/deployments/docker-vpnwithproxy/vpn/japan.ovpn"
+}
+
+###
+
+DELETE http://localhost:8080/api/vpn/bac68495cce16689b87f25a672ea094606b014d49eba7b56de09bf458618fe37
+Accept: */*
+Cache-Control: no-cache
+
+###
